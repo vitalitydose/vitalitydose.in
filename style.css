@@ -1,0 +1,143 @@
+/* --- BRAND VARIABLES --- */
+:root {
+    --color-forest: #2D433D;
+    --color-slate: #4A5D66;
+    --color-obsidian: #1A1A1A;
+    --color-copper: #B87333;
+    --color-ivory: #F9F7F2;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-accent: 'Playfair Display', serif;
+}
+
+/* --- RESET & BASE --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+    background-color: var(--color-ivory); 
+    font-family: var(--font-body); 
+    color: var(--color-obsidian); 
+    line-height: 1.6; 
+}
+
+/* --- NAVIGATION --- */
+.navbar {
+    padding: 2rem 5%;
+    background: var(--color-ivory);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.brand-logo {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    letter-spacing: 0.25em;
+    color: var(--color-forest);
+}
+.nav-links { list-style: none; display: flex; gap: 2rem; align-items: center; }
+.nav-links a { 
+    text-decoration: none; 
+    color: var(--color-obsidian); 
+    font-family: var(--font-heading); 
+    font-size: 0.8rem; 
+    font-weight: 600; 
+    text-transform: uppercase;
+}
+.btn-action { color: var(--color-copper) !important; }
+
+/* --- HERO SECTION --- */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: linear-gradient(rgba(249, 247, 242, 0.9), rgba(249, 247, 242, 0.9)), url('hero-bg.jpg');
+    background-size: cover;
+}
+h1 {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: clamp(3rem, 6vw, 5rem);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-forest);
+    line-height: 1.1;
+    margin: 1.5rem 0;
+}
+.narrative-hook {
+    font-family: var(--font-accent);
+    font-style: italic;
+    color: var(--color-slate);
+    font-size: 1.5rem;
+}
+.hero-subtext {
+    max-width: 600px;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* --- BUTTONS --- */
+.btn-primary {
+    background: var(--color-forest);
+    color: var(--color-ivory);
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn-primary:hover { background: var(--color-copper); }
+
+.btn-secondary {
+    padding: 1.2rem 2.5rem;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    color: var(--color-forest);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+}
+
+/* --- METRICS --- */
+.metrics { padding: 10vh 5%; background: white; }
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.metric-card h3 { 
+    font-family: var(--font-heading); 
+    text-transform: uppercase; 
+    margin: 1rem 0; 
+}
+.copper-highlight { 
+    color: var(--color-copper); 
+    font-family: var(--font-heading); 
+    font-weight: 800; 
+    font-size: 2rem; 
+}
+
+/* --- FOOTER --- */
+footer {
+    padding: 5rem 0;
+    text-align: center;
+    background: var(--color-forest);
+    color: var(--color-ivory);
+}
+.footer-logo {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    letter-spacing: 0.5em;
+    margin-bottom: 1rem;
+}
