@@ -1,0 +1,31 @@
+# GitHub Pages configuration for Vitality Dose
+# https://vitalitydose.in
+
+title: "Vitality Dose"
+description: "Science-backed nutrition coaching in Guruzala, Palnadu, Andhra Pradesh"
+url: "https://vitalitydose.in"
+baseurl: ""
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: "Niranjan — Vitality Dose"
+twitter:
+  username: vitalitydose
+social:
+  name: Vitality Dose
+  links:
+    - https://www.instagram.com/vitalitydose
+    - https://www.youtube.com/@vitalitydose
+    - https://www.linkedin.com/in/vitalitydose
+    - https://x.com/vitalitydose
+
+# Exclude build artifacts
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
