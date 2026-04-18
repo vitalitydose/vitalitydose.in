@@ -3,6 +3,9 @@ const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
   nav.classList.toggle('stuck', window.scrollY > 50);
 });
+// Example for your WhatsApp buttons
+const whatsappNumber = "917019890619";
+const emailAddress = "adailyvitalitydose@gmail.com";
 
 // Mobile Menu Logic
 const mob = document.getElementById('mob');
