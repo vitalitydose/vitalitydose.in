@@ -2,7 +2,7 @@
 # https://vitalitydose.in
 
 title: "Vitality Dose"
-description: "Science-backed nutrition coaching in Guruzala, Palnadu, Andhra Pradesh"
+description: "Science-backed nutrition coaching in Bangalore, Karnataka & Guruzala, Palnadu, Andhra Pradesh Physycially and Pan India Virtually"
 url: "https://vitalitydose.in"
 baseurl: ""
 
@@ -12,16 +12,16 @@ plugins:
   - jekyll-seo-tag
 
 # SEO
-author: "Niranjan — Vitality Dose"
+author: "Niranjan Damodar— Vitality Dose"
 twitter:
   username: vitalitydose
 social:
   name: Vitality Dose
   links:
-    - https://www.instagram.com/vitalitydose
-    - https://www.youtube.com/@vitalitydose
-    - https://www.linkedin.com/in/vitalitydose
-    - https://x.com/vitalitydose
+    - https://www.instagram.com/vitalitydose.in
+    - https://www.youtube.com/@VitalityDose.in.99
+    - https://www.linkedin.com/company/vitalitydose/
+    - https://x.com/vitalitydose99
 
 # Exclude build artifacts
 exclude:
