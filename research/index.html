@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Research Hub | Vitality Dose</title>
+  <meta name="description" content="Summaries of peer-reviewed nutrition science, clinical studies, and evidence-based wellness insights — curated for Indian audiences."/>
+  <meta name="robots" content="index,follow"/>
+  <link rel="canonical" href="https://vitalitydose.in/research/"/>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+  <link rel="manifest" href="/site.webmanifest"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/assets/css/global.css"/>
+</head>
+<body>
+<!-- ══════════════════════════════════════
+     ANNOUNCEMENT BAR
+══════════════════════════════════════ -->
+<div id="announce">
+  <span>🎉 Free 20-minute nutrition consultation — Limited slots this week!</span>
+  <a href="https://wa.me/917019890619?text=I+want+the+free+consultation" style="color:var(--ob);font-weight:900;text-decoration:underline">Book Now</a>
+  <button class="close-bar" onclick="this.parentElement.style.display='none'" aria-label="Close">✕</button>
+</div>
+
+<!-- ══════════════════════════════════════
+     MOBILE NAV
+══════════════════════════════════════ -->
+<div id="mob-nav" role="navigation" aria-label="Mobile menu">
+  <button class="mob-close" id="mob-close" aria-label="Close menu">✕</button>
+  <a href="/services/">Services</a>
+  <li><a href="products.html">Products</a></li>
+  <a href="/tools/">Free Tools</a>
+  <a href="/blog/">Guides</a>
+  <a href="#reviews">Results</a>
+  <a href="#faq">FAQ</a>
+  <a href="#local">Location</a>
+  <a href="#cta-section" class="mob-cta">📲 Free Consultation</a>
+</div>
+
+<!-- ══════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════ -->
+<nav id="topnav" role="navigation" aria-label="Main navigation">
+  <div class="container nav-wrap">
+    <a href="" class="logo" aria-label="Vitality Dose home">
+      <img src="/favicon.svg" alt="" aria-hidden="true" width="34" height="34">
+      <span class="logo-text">Vitality<span>Dose</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/services/">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="/tools/">Free Tools</a></li>
+      <li><a href="/blog/">Guides</a></li>
+      <li><a href="#reviews">Results</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#local">Location</a></li>
+      <li><a href="#cta-section" class="nav-cta">Free Consultation</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Open menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     HERO
+
+<section class="section section--dark" style="padding-top:9rem;padding-bottom:5rem;text-align:center">
+  <div class="container" style="max-width:700px">
+    <span style="font-size:3.5rem;display:block;margin-bottom:1rem">🔬</span>
+    <p class="section-sub">Coming Soon</p>
+    <h1 class="section-title">Research Hub</h1>
+    <p style="color:rgba(249,247,242,.65);margin:1.5rem 0 3rem;font-size:1.05rem">Summaries of peer-reviewed nutrition science, clinical studies, and evidence-based wellness insights — curated for Indian audiences.</p>
+    <div style="text-align:left">
+      <div class="reveal" style="background:rgba(249,247,242,.04);border:1px solid rgba(249,247,242,.08);border-radius:12px;padding:1.5rem 2rem;margin-bottom:1rem"><strong style="color:var(--go)">Soy Protein & Body Composition</strong><p style="margin:.5rem 0 0;color:rgba(249,247,242,.65);font-size:.9rem">What 30+ RCTs say about soy protein isolate vs whey for fat loss.</p></div>
+      <div class="reveal" style="background:rgba(249,247,242,.04);border:1px solid rgba(249,247,242,.08);border-radius:12px;padding:1.5rem 2rem;margin-bottom:1rem"><strong style="color:var(--go)">Low-GI Diets & Insulin Sensitivity</strong><p style="margin:.5rem 0 0;color:rgba(249,247,242,.65);font-size:.9rem">Clinical evidence for glycaemic index in Indian populations.</p></div>
+      <div class="reveal" style="background:rgba(249,247,242,.04);border:1px solid rgba(249,247,242,.08);border-radius:12px;padding:1.5rem 2rem;margin-bottom:1rem"><strong style="color:var(--go)">Omega-3 & Cardiovascular Risk</strong><p style="margin:.5rem 0 0;color:rgba(249,247,242,.65);font-size:.9rem">EPA/DHA dosing recommendations from the 2024 AHA guidelines.</p></div>
+      <div class="reveal" style="background:rgba(249,247,242,.04);border:1px solid rgba(249,247,242,.08);border-radius:12px;padding:1.5rem 2rem;margin-bottom:1rem"><strong style="color:var(--go)">Probiotic Strains & Gut Health</strong><p style="margin:.5rem 0 0;color:rgba(249,247,242,.65);font-size:.9rem">Lactobacillus acidophilus NCFM® — the most studied gut strain.</p></div>
+    </div>
+    <div style="margin-top:3rem">
+      <p style="color:rgba(249,247,242,.5);margin-bottom:1.5rem">Get notified when this section goes live:</p>
+      <a class="btn btn-primary" href="https://wa.me/917019890619?text=Hi+Niranjan,+notify+me+when+Research Hub+is+live+on+vitalitydose.in" target="_blank" rel="noopener">
+        Notify Me on WhatsApp →
+      </a>
+    </div>
+  </div>
+</section>
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand reveal">
+        <a href="#" class="logo" style="display:inline-flex;margin-bottom:.7rem">
+          <div class="logo-mark"></div>
+          <span class="logo-text" style="font-size:.88rem">Vitality<span>Dose</span></span>
+        </a>
+        <p>Science-backed nutrition coaching and personalised wellness programs. Based in Guruzala, Palnadu district, Andhra Pradesh. Serving all of India virtually.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/vitalitydose.in.in" class="footer-soc" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+          <a href="https://wa.me/917019890619" class="footer-soc" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+          <a href="https://www.youtube.com/@vitalitydose" class="footer-soc" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
+          <a href="https://t.me/vitalitydose" class="footer-soc" target="_blank" rel="noopener" aria-label="Telegram">✈️</a>
+          <a href="https://www.linkedin.com/in/vitalitydose" class="footer-soc" target="_blank" rel="noopener" aria-label="LinkedIn">💼</a>
+          <a href="https://www.threads.net/@vitalitydose" class="footer-soc" target="_blank" rel="noopener" aria-label="Threads">🧵</a>
+          <a href="https://x.com/vitalitydose" class="footer-soc" target="_blank" rel="noopener" aria-label="X/Twitter" style="font-family:var(--fh);font-weight:900;font-size:.72rem">𝕏</a>
+        </div>
+      </div>
+      <div class="footer-col reveal">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="/services/">Weight Management</a></li>
+          <li><a href="/services/">Personalised Nutrition</a></li>
+          <li><a href="/services/">Body Composition</a></li>
+          <li><a href="/services/">Nutrition Club</a></li>
+          <li><a href="/services/">Virtual Coaching</a></li>
+        </ul>
+      </div>
+      <div class="footer-col reveal">
+        <h4>Free Resources</h4>
+        <ul>
+          <li><a href="/tools/">BMI Calculator</a></li>
+          <li><a href="/tools/">TDEE Calculator</a></li>
+          <li><a href="/tools/">Macros Calculator</a></li>
+          <li><a href="/tools/">Ideal Weight Tool</a></li>
+          <li><a href="/tools/">Body Fat Estimator</a></li>
+          <li><a href="/blog/">Nutrition Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col reveal">
+        <h4>Location &amp; Contact</h4>
+        <ul>
+          <li><a href="https://wa.me/917019890619">WhatsApp</a></li>
+          <li><a href="mailto:hello@vitalitydose.in">hello@vitalitydose.in</a></li>
+          <li><a href="https://t.me/vitalitydose">Telegram</a></li>
+          <li><a href="#local">Guruzala, Palnadu, AP</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div style="margin-top:1.3rem;font-family:var(--fh);font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(184,115,51,.45)">📍 Guruzala, Palnadu, AP</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Vitality Dose by Niranjan. All rights reserved.</p>
+      <!-- Hidden SEO keyword anchor text — crawlable by Googlebot -->
+      <p class="seo-keywords">Nutrition coach Guruzala · Wellness coaching Palnadu · Health coach Andhra Pradesh · Weight management near me · Free BMI calculator · TDEE calculator India</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════
+     FLOATING ELEMENTS
+══════════════════════════════════════ -->
+<a href="https://wa.me/917019890619?text=Hi%2C+I%27d+like+to+know+more+about+Vitality+Dose" id="wa-fab" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+<!-- ══════════════════════════════════════
+
+<a id="back-top" href="#" aria-label="Back to top">↑</a>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
