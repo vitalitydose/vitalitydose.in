@@ -1,8 +1,4 @@
-/* ============================================================
-   Vitality Dose — products.js
-   Products page: filter bar, scroll animations
-   ============================================================ */
-
+document.addEventListener('DOMContentLoaded',()=>{
 /* ── NAV sticky ── */
 const nav = document.getElementById('topnav');
 window.addEventListener('scroll', () => {
@@ -64,4 +60,5 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
       window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
     }
   });
+});
 });

@@ -1,8 +1,3 @@
-/* ============================================================
-   Vitality Dose — tools.js
-   Health calculators: BMI, TDEE, Macros, IBW, Body Fat %
-   ============================================================ */
-
 /* ── TOOL TABS ── */
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -163,4 +158,3 @@ function calcBodyFat() {
     `<div class="range-row ${matched.l===r.l?'highlight':''}"><span class="r-label">${r.l}</span><span class="r-val">${r.r}</span></div>`
   ).join('');
 }
-
