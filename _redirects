@@ -1,0 +1,28 @@
+# Cloudflare Pages _redirects
+# Updated for multi-page structure — vitalitydose.in
+
+# Legacy single-page shortcuts
+/home                   /               301
+/index                  /               301
+/index.html             /               301
+
+# Old hash-anchor redirects → new dedicated pages
+/tools                  /tools/         301
+/guides                 /blog/          301
+/faq                    /#faq           301
+/contact                /contact/       301
+/consultation           /contact/       301
+/location               /#local         301
+/about                  /about/         301
+/services               /services/      301
+
+# Old products.html → new /products/
+/products.html          /products/      301
+/products               /products/      301
+
+# Legacy tool anchors → individual tool pages
+/tools/bmi              /tools/bmi-calculator/          301
+/tools/tdee             /tools/tdee-calculator/         301
+/tools/macros           /tools/macros-calculator/       301
+/tools/ibw              /tools/ideal-weight/            301
+/tools/bodyfat          /tools/body-fat/                301
