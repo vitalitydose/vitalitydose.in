@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vitalitydose.in/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1

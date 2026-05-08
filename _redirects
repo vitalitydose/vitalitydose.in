@@ -1,0 +1,18 @@
+# Cloudflare Pages _redirects
+# Handles common URL variations for SEO
+
+/home                   /               301
+/index                  /               301
+/index.html             /               301
+/tools                  /#tools         301
+/guides                 /#guides        301
+/services               /#services      301
+/faq                    /#faq           301
+/contact                /#cta-section   301
+/consultation           /#cta-section   301
+/location               /#local         301
+/about                  /#services      301
+
+# Force HTTPS (Cloudflare handles this, but included for reference)
+# http://vitalitydose.in/*  https://vitalitydose.in/:splat  301
+# http://www.vitalitydose.in/*  https://vitalitydose.in/:splat  301
