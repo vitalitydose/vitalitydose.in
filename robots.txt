@@ -65,4 +65,4 @@ Allow: /
 Sitemap: https://vitalitydose.in/sitemap.xml
 
 # Crawl-delay for politeness
-Crawl-delay:
+Crawl-delay: .2
