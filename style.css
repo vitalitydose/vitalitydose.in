@@ -1,0 +1,117 @@
+/* 
+   Vitality Dose - Universal Brand Styles
+   Host: GitHub Pages / Git Repo
+*/
+
+:root {
+    /* Primary Brand Palette */
+    --primary-green: #0b2c24;    /* Deep Forest Green */
+    --accent-gold: #c5a059;     /* Copper/Gold Accent */
+    --bg-light: #f9fbf9;        /* Ivory Cream Background */
+    --text-dark: #1a1a1a;       /* Rich Black for readability */
+    --text-muted: #4a5568;      /* Grey for secondary text */
+    --white: #ffffff;
+    
+    /* Functional Colors */
+    --success: #2d6a4f;
+    --border-color: #e2e8f0;
+    
+    /* Typography */
+    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: 'Playfair Display', serif; /* For a premium feel */
+}
+
+/* Global Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--primary-green);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+/* Links & Buttons */
+a {
+    color: var(--accent-gold);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    filter: brightness(1.2);
+}
+
+.button-primary {
+    background-color: var(--primary-green);
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 600;
+    border: 1px solid var(--primary-green);
+}
+
+.button-primary:hover {
+    background-color: transparent;
+    color: var(--primary-green);
+}
+
+.button-accent {
+    background-color: var(--accent-gold);
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* Layout Containers */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Cards (Useful for Tools & Programs) */
+.card {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
