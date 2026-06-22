@@ -1,33 +1,15 @@
-# Cloudflare Pages / GitHub Pages _headers
-# Performance & Security headers
-
+# Performance & Security Headers
 /*
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(self)
+  Link: </.well-known/api-catalog>; rel="api-catalog", </.well-known/mcp/server-card.json>; rel="mcp-server", </auth.md>; rel="agent-auth"
 
-/*.html
-  Cache-Control: public, max-age=3600, s-maxage=86400
-
+# Cache Static Assets Aggressively
 /*.css
   Cache-Control: public, max-age=31536000, immutable
 
 /*.js
-  Cache-Control: public, max-age=31536000, immutable
-
-/*.jpg
-  Cache-Control: public, max-age=31536000, immutable
-
-/*.png
-  Cache-Control: public, max-age=31536000, immutable
-
-/*.webp
-  Cache-Control: public, max-age=31536000, immutable
-
-/*.svg
-  Cache-Control: public, max-age=31536000, immutable
-
-/fonts/*
   Cache-Control: public, max-age=31536000, immutable
