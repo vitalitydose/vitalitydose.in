@@ -1,0 +1,10 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://vitalitydose.in/api",
+      "service-desc": [{"href": "https://vitalitydose.in/openapi.yaml", "type": "application/vnd.oai.openapi"}],
+      "service-doc": [{"href": "https://vitalitydose.in/docs", "type": "text/html"}],
+      "status": [{"href": "https://vitalitydose.in/health", "type": "application/json"}]
+    }
+  ]
+}
