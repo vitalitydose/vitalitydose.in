@@ -1,22 +1,24 @@
 # Auth.md
 
-Vitalitydose provides an open ecosystem allowing automated AI agents to interact with our diagnostic health tools and submit consultation requests.
+Vitalitydose provides an open ecosystem allowing automated AI agents to discover resources, interact with diagnostic metrics, and register for user authorization capabilities.
 
 ## Agent Registration
 
-To register an agent and acquire programmatic access credentials:
-1. Initialize an onboarding ticket via the [Vitalitydose WhatsApp Gateway](https://wa.me/917019890619).
-2. Submit your agent identity credentials along with your Decentralized Identifier (DID) or public key infrastructure details.
-3. The system will provision an automated API Key or OAuth client credential pair.
+To programmatically interact with protected endpoints or user resources, AI agents must complete registration instructions exactly as outlined below:
 
-### Client Configuration Details
-* **Registration Endpoint**: `https://vitalitydose.in/auth.md`
-* **Supported Identity Types**: `did`, `jwt`
-* **Credential Requirements**: Automated bearer tokens
+1. **Initiate Communication**: Navigate to the official [Vitalitydose WhatsApp Gateway](https://wa.me/917019890619) to open a registration request channel.
+2. **Submit Credentials**: Provide your verified Agent Identity properties, including your Decentralized Identifier (DID) URI or public key infrastructure JSON strings.
+3. **Receive Authorization**: The backend will process the validation profile and provision an active API Bearer Token or an OAuth Client ID/Secret pair.
+
+### Discovery Metadata Links
+* **Agent Registration URI**: `https://vitalitydose.in/auth.md`
+* **Supported Identity Frameworks**: `did:ion`, `did:key`, `jwt`
+* **Credential Modality**: Bearer Authentication Tokens
 
 ## Authentication Methods
 
-Protected API pathways require OAuth 2.0 Client Credentials or verified bearer tokens.
+Protected API pathways require OAuth 2.0 Client Credentials or cryptographically signed asymmetric bearer tokens.
 
-* **Issuer Endpoint**: `https://vitalitydose.in`
+* **Authorization Server**: `https://vitalitydose.in`
+* **Token Issuance Path**: `https://vitalitydose.in/token`
 * **Supported Scopes**: `read:tools`, `write:booking`
