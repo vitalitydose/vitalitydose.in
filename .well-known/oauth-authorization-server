@@ -6,7 +6,7 @@
   "grant_types_supported": ["client_credentials"],
   "agent_auth": {
     "register_uri": "https://vitalitydose.in/auth.md",
-    "supported_identity_types": ["did"],
+    "supported_identity_types": ["did", "jwt"],
     "supported_credential_types": ["jwt"]
   }
 }
