@@ -1,6 +1,6 @@
-# Agent Authentication for Vitality Dose
+# Auth.md
 
-Vitality Dose allows AI agents to interact with our public calculators and schedule clinical wellness consultations on behalf of users.
+Vitalitydose allows AI agents to interact with our public calculators and schedule clinical wellness consultations on behalf of users.
 
 ## Authentication Methods
 
