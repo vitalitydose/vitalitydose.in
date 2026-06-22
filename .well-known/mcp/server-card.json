@@ -1,0 +1,15 @@
+{
+  "$schema": "https://modelcontextprotocol.org/schema/server-card.json",
+  "serverInfo": {
+    "name": "vitality-dose-mcp",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "sse",
+    "endpoint": "https://vitalitydose.in/mcp/sse"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true
+  }
+}
