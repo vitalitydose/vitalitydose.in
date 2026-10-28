@@ -1,0 +1,153 @@
+/* Vitality Dose Blog Architecture Styles */
+.post-layout {
+  padding: 3.5rem 1.5rem;
+  max-width: 860px;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.badge-category {
+  display: inline-block;
+  background-color: var(--copper);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 0.85rem;
+}
+
+.post-header h1 {
+  font-size: 2.35rem;
+  color: var(--forest-green);
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.post-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.featured-media {
+  margin-bottom: 2.25rem;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  background-color: var(--forest-green);
+}
+
+.featured-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-body h2 {
+  color: var(--forest-green);
+  font-size: 1.6rem;
+  margin: 2rem 0 0.85rem;
+}
+
+.article-body h3 {
+  color: var(--forest-green);
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.65rem;
+}
+
+.article-body p {
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+}
+
+.article-body ul,
+.article-body ol {
+  margin: 0 0 1.5rem 1.5rem;
+}
+
+.article-body li {
+  margin-bottom: 0.5rem;
+}
+
+.article-body a {
+  color: var(--copper);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cta-card {
+  background-color: var(--forest-green);
+  color: var(--ivory-cream);
+  padding: 2.25rem;
+  border-radius: var(--radius-md);
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.cta-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.cta-card p {
+  color: #D2DDD9;
+  margin-bottom: 1.25rem;
+}
+
+.related-section {
+  border-top: 1px solid var(--border-light);
+  padding-top: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.related-section h3 {
+  color: var(--forest-green);
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.grid-related,
+.blog-feed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.related-card {
+  background-color: var(--surface-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.35rem;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.related-card a {
+  text-decoration: none;
+  color: var(--forest-green);
+}
+
+.related-card h4 {
+  font-size: 1.15rem;
+  margin: 0.6rem 0;
+  line-height: 1.35;
+}
+
+.related-card .summary {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.related-card .read-more a {
+  color: var(--copper);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
