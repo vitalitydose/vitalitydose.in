@@ -1,5 +1,0 @@
-{
-  "resource": "https://vitalitydose.in",
-  "authorization_servers": ["https://vitalitydose.in"],
-  "scopes_supported": ["read", "booking"]
-}
